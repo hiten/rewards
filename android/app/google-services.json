@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460571537852",
+    "firebase_url": "https://hitenderpannu-4e7ab.firebaseio.com",
+    "project_id": "hitenderpannu-4e7ab",
+    "storage_bucket": "hitenderpannu-4e7ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460571537852:android:fd28462831ba6263",
+        "android_client_info": {
+          "package_name": "com.hitenderpannu.rewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460571537852-iv7q4tiacf515n70k9l8ptar9ocltekr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitenderpannu.rewards",
+            "certificate_hash": "c64d1841a84602f0acf9f01a351fbecdc6d0c604"
+          }
+        },
+        {
+          "client_id": "460571537852-jn7qf0fk00ss1isi5u6g961k48l2t6g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKY1lIfrGI38zOVQpZ8beiS5wJAjVizE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460571537852-jn7qf0fk00ss1isi5u6g961k48l2t6g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
