@@ -9,7 +9,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f252628-e508-4ef1-9696-708d4aae01ed" name="Default" comment="" />
+    <list default="true" id="5f252628-e508-4ef1-9696-708d4aae01ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/shared/FlatButtonWithRoundedBorder.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shared/InputFieldDecoration.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/signup/SignupScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/values/dimens.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/values/strings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/login/LoginForm.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/login/LoginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/login/LoginScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/splash/SplashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/splash/SplashScreen.dart" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -26,7 +36,7 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state>
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -38,68 +48,34 @@
       <file leaf-file-name="LoginScreen.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/login/LoginScreen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="373">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#1240#2718#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashScreen.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/splash/SplashScreen.dart">
+      <file leaf-file-name="SignupScreen.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/signup/SignupScreen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="531">
+              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#856#3253#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geometry.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/bin/cache/pkg/sky_engine/lib/ui/geometry.dart">
+      <file leaf-file-name="safe_area.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/safe_area.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18920">
-              <caret line="862" column="6" selection-start-line="862" selection-start-column="6" selection-end-line="862" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="border_radius.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/border_radius.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6358">
-              <caret line="293" column="21" selection-start-line="293" selection-start-column="21" selection-end-line="293" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rounded_rectangle_border.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edge_insets.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/edge_insets.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7238">
-              <caret line="335" column="36" selection-start-line="335" selection-start-column="8" selection-end-line="335" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat_button.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/flat_button.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2134">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state relative-caret-position="468">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -107,17 +83,59 @@
       <file leaf-file-name="basic.dart" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/basic.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28248">
-              <caret line="1343" column="20" selection-start-line="1343" selection-start-column="20" selection-end-line="1343" selection-end-column="20" />
+            <state relative-caret-position="265">
+              <caret line="3251" column="2" selection-start-line="3251" selection-start-column="2" selection-end-line="3251" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_form_field.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/text_form_field.dart">
+      <file leaf-file-name="FlatButtonWithRoundedBorder.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/shared/FlatButtonWithRoundedBorder.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="352">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputFieldDecoration.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/shared/InputFieldDecoration.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/values/strings.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreen.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/splash/SplashScreen.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flat_button.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/flat_button.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -136,6 +154,9 @@
       <find>BorderSide</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -143,23 +164,52 @@
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/values/dimens.dart" />
         <option value="$PROJECT_DIR$/lib/login/LoginForm.dart" />
+        <option value="$PROJECT_DIR$/lib/shared/InputFieldDecoration.dart" />
+        <option value="$PROJECT_DIR$/lib/shared/FlatButtonWithRoundedBlackBorder.dart" />
+        <option value="$PROJECT_DIR$/lib/shared/FlatButtonWithRoundedBorder.dart" />
         <option value="$PROJECT_DIR$/lib/login/LoginScreen.dart" />
+        <option value="$PROJECT_DIR$/lib/values/strings.dart" />
         <option value="$PROJECT_DIR$/lib/splash/SplashScreen.dart" />
+        <option value="$PROJECT_DIR$/lib/signup/SignupScreen.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1122" />
-    <option name="y" value="-1200" />
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
+              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
+              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
+              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,31 +232,19 @@
               <item name="rewards" type="b2602c69:ProjectViewProjectNode" />
               <item name="rewards" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="signup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rewards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rewards" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="splash" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
             <path>
-              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
-              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
-              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="rewards" type="1abcf292:AndroidViewProjectNode" />
-              <item name="rewards" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="rewards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rewards" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +346,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1122" y="-1200" width="1920" height="1200" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
@@ -319,16 +357,16 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.21174377" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282918" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32806805" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282918" />
       <window_info anchor="right" id="Flutter Outline" order="3" weight="0.44324714" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.3282918" />
       <window_info id="Captures" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3360043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.20043103" />
+      <window_info id="Structure" order="1" sideWeight="0.50060755" side_tool="true" visible="true" weight="0.20043103" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -347,7 +385,6 @@
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.21237864" />
       <window_info id="Build Variants" order="1" side_tool="true" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.44902912" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -359,20 +396,21 @@
       <window_info anchor="bottom" id="Android Profiler" order="1" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info anchor="bottom" id="Logcat" order="3" weight="0.3288835" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3288835" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3288835" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
     </layout-to-restore>
@@ -381,51 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/text_field.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/login/LoginScreen.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -576,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/safe_area.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/input_border.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139">
@@ -590,24 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/input_decorator.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40458">
-          <caret line="1839" column="15" selection-start-line="1839" selection-start-column="15" selection-end-line="1839" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/development/flutter/bin/cache/pkg/sky_engine/lib/core/duration.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="130" column="17" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/login/LoginForm.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -622,26 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
           <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/login/LoginScreen.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,20 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28248">
-          <caret line="1343" column="20" selection-start-line="1343" selection-start-column="20" selection-end-line="1343" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/text_form_field.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/edge_insets.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7238">
@@ -736,19 +674,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/values/dimens.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/login/LoginForm.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/input_decorator.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="1734" column="6" selection-start-line="1734" selection-start-column="6" selection-end-line="1734" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/text_form_field.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/material/flat_button.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        <state relative-caret-position="309">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/shared/InputFieldDecoration.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/shared/FlatButtonWithRoundedBorder.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/editable_text.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/values/strings.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/splash/SplashScreen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="968">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/basic.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="3251" column="2" selection-start-line="3251" selection-start-column="2" selection-end-line="3251" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/login/LoginScreen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#1240#2718#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/widgets/safe_area.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/signup/SignupScreen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#856#3253#0" />
           </folding>
         </state>
       </provider>

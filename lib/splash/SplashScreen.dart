@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:rewards/values/dimens.dart';
+import 'package:rewards/values/strings.dart';
 import 'package:rewards/login/LoginScreen.dart';
+import 'package:rewards/signup/SignupScreen.dart';
 
 class SplashScreen extends StatelessWidget {
   final _buttonStyle =
@@ -13,10 +16,10 @@ class SplashScreen extends StatelessWidget {
         style: BorderStyle.solid,
       ));
 
-  Widget _getAuthButton(String text, VoidCallback onPressed) {
+  Widget _getAuthButton(String label, VoidCallback onPressed) {
     return FlatButton(
       child: Text(
-        text,
+        label,
         textDirection: TextDirection.ltr,
         style: _buttonStyle,
       ),
@@ -28,16 +31,17 @@ class SplashScreen extends StatelessWidget {
 
   List<Widget> _getAuthButtonBar(BuildContext context) {
     return [
-      _getAuthButton("Login", () {
+      _getAuthButton(StringConstants.LABEL_LOGIN, () {
         Navigator.push(context, MaterialPageRoute(builder: (context) {
           return new LoginScreen();
         }));
       }),
-      _getAuthButton("Signup", () {
+      _getAuthButton(StringConstants.LABEL_SIGN_UP, () {
         Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return new LoginScreen();
+          return new SignupScreen();
         }));
-      })];
+      })
+    ];
   }
 
   @override
@@ -57,9 +61,9 @@ class SplashScreen extends StatelessWidget {
         ),
 
         Positioned(
-          bottom: 32.0,
-          left: 16.0,
-          right: 16.0,
+          bottom: Dimens.MARGIN_32,
+          left: Dimens.MARGIN_16,
+          right: Dimens.MARGIN_16,
           child: Flex(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
