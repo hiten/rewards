@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rewards/values/dimens.dart';
 import 'package:rewards/values/strings.dart';
-import 'package:rewards/login/LoginScreen.dart';
-import 'package:rewards/signup/SignupScreen.dart';
+import 'package:rewards/features/login/LoginScreen.dart';
+import 'package:rewards/features/signup/SignupScreen.dart';
 
 class SplashScreen extends StatelessWidget {
   final _buttonStyle =
